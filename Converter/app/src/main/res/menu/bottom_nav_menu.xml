@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Головна" />
+
+    <item
+        android:id="@+id/nav_length"
+        android:icon="@drawable/ic_length"
+        android:title="Довжина" />
+
+    <item
+        android:id="@+id/nav_weight"
+        android:icon="@drawable/ic_weight"
+        android:title="Вага" />
+
+    <item
+        android:id="@+id/nav_temperature"
+        android:icon="@drawable/ic_temperature"
+        android:title="Температура" />
+</menu>

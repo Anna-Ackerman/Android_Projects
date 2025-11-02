@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.HalloWorld" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.HalloWorld" parent="Base.Theme.HalloWorld" />
+
+    <style name="PrimaryButton" parent="Widget.Material3.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="backgroundTint">@color/button</item>
+        <item name="android:textColor">@color/buttonText</item>
+    </style>
+
+    <style name="SecondaryButton" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/secondaryButtonText</item>
+    </style>
+
+    <style name="MenuButton" parent="PrimaryButton">
+        <item name="android:minWidth">@dimen/menuButtonWidth</item>
+        <item name="android:minHeight">@dimen/menuItemHeight</item>
+        <item name="android:layout_marginTop">@dimen/menuItemSpace</item>
+    </style>
+
+    <style name="ScreenTitle">
+        <item name="android:textColor">@color/secondaryText</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">12dp</item>
+    </style>
+
+    <style name="TextHint">
+        <item name="android:textColor">@color/secondaryText</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Input">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lines">1</item>
+        <item name="android:inputType">textPersonName</item>
+    </style>
+</resources>

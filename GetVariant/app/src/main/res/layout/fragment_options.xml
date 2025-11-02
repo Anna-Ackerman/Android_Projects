@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/screenPadding">
+
+    <include
+        android:id="@+id/logo"
+        layout="@layout/part_logo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        style="@style/ScreenTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/options"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo" />
+
+    <EditText
+        android:id="@+id/firstNameEditText"
+        style="@style/Input"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/first_name"
+        android:imeOptions="actionNext"
+        app:layout_constraintBottom_toTopOf="@+id/lastNameEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleTextView"
+        app:layout_constraintVertical_bias="0.25"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintWidth_max="@dimen/inputWidth" />
+
+    <EditText
+        android:id="@+id/lastNameEditText"
+        style="@style/Input"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/inputMargin"
+        android:hint="@string/last_name"
+        android:imeOptions="actionDone"
+        app:layout_constraintBottom_toTopOf="@id/groupHintTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/firstNameEditText"
+        app:layout_constraintWidth_max="@dimen/inputWidth" />
+
+    <TextView
+        android:id="@+id/groupHintTextView"
+        style="@style/TextHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/hintMargin"
+        android:layout_marginTop="@dimen/inputMargin"
+        android:text="@string/group"
+        app:layout_constraintBottom_toTopOf="@id/groupSpinner"
+        app:layout_constraintStart_toStartOf="@id/lastNameEditText"
+        app:layout_constraintTop_toBottomOf="@id/lastNameEditText" />
+
+    <Spinner
+        android:id="@+id/groupSpinner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/doneButton"
+        app:layout_constraintEnd_toEndOf="@id/lastNameEditText"
+        app:layout_constraintStart_toStartOf="@id/lastNameEditText"
+        app:layout_constraintTop_toBottomOf="@id/groupHintTextView" />
+
+    <Button
+        android:id="@+id/doneButton"
+        style="@style/PrimaryButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/bottomButtonsSpace"
+        android:text="@string/done"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonsSpace" />
+
+    <Space
+        android:id="@+id/buttonsSpace"
+        android:layout_width="@dimen/buttonMargin"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/doneButton"
+        app:layout_constraintStart_toEndOf="@id/cancelButton" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        style="@style/SecondaryButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        app:layout_constraintBottom_toBottomOf="@id/doneButton"
+        app:layout_constraintEnd_toStartOf="@id/buttonsSpace"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

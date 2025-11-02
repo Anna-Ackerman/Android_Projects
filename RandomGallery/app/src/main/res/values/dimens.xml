@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_notification_padding">12dp</dimen>
+    <dimen name="notification_text">16sp</dimen>
+    <dimen name="photo_title_padding">16dp</dimen>
+    <dimen name="photo_title_text">20sp</dimen>
+    <dimen name="photo_title_margin">12dp</dimen>
+    <dimen name="image_margin">8dp</dimen>
+    <dimen name="additional_top_offset">8dp</dimen>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="primaryText">#232323</color>
+    <color name="secondaryText">#868686</color>
+    <color name="button">@color/colorPrimary</color>
+    <color name="buttonPressed">@color/colorPrimaryDark</color>
+    <color name="buttonDisabled">#c0c0c0</color>
+    <color name="secondaryButton">#c8c8c8</color>
+    <color name="secondaryButtonPressed">#a8a8a8</color>
+    <color name="secondaryButtonDisabled">#c8c8c8</color>
+    <color name="buttonText">@android:color/white</color>
+    <color name="buttonTextDisabled">#989898</color>
+    <color name="secondaryButtonText">@color/primaryText</color>
+    <color name="secondaryButtonTextDisabled">#a0a0a0</color>
+    <color name="error">#ef0022</color>
+</resources>

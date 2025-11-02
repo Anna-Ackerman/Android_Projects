@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screenPadding">16dp</dimen>
+    <dimen name="buttonRadius">4dp</dimen>
+    <dimen name="menuButtonWidth">180dp</dimen>
+    <dimen name="inputWidth">260dp</dimen>
+    <dimen name="inputMargin">24dp</dimen>
+    <dimen name="hintMargin">4dp</dimen>
+    <dimen name="appNameTextSize">20sp</dimen>
+    <dimen name="logoSize">64dp</dimen>
+    <dimen name="logoMargin">24dp</dimen>
+    <dimen name="appTitleMargin">16dp</dimen>
+    <dimen name="menuItemSpace">24dp</dimen>
+    <dimen name="menuItemHeight">52dp</dimen>
+    <dimen name="buttonMargin">8dp</dimen>
+    <dimen name="bottomButtonsSpace">4dp</dimen>
+</resources>

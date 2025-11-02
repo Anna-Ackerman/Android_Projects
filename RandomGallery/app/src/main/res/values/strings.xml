@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">RandomGallery</string>
+    <string name="default_channel_name">On Boot Reminders</string>
+    <string name="update_title">Update Gallery</string>
+    <string name="update_message">Would you like to check for updates?</string>
+    <string name="update_ticker">Hello from RandomGallery</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_yes">Yes</string>
+    <string name="cancelled">Request has been cancelled</string>
+    <string name="no_images">Gallery hasn\'t been downloaded yet</string>
+    <string name="gallery_updated">Gallery has been updated</string>
+    <string name="update_error">Some error happened upon updating gallery</string>
+    <string name="update">Download</string>
+    <string name="update_available">Gallery update is available</string>
+    <string name="percentage">%1$d%%</string>
+    <string name="updating_gallery">Updating Gallery…</string>
+    <string name="updating_scheduled">Updating has been scheduled</string>
+    <string name="shared_tag">shared_tag</string>
+</resources>
