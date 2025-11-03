@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Конвертер</string>
+    <string name="home">Головна</string>
+    <string name="length">Довжина</string>
+    <string name="weight">Вага</string>
+    <string name="temperature">Температура</string>
+    <string name="author_info">Про автора</string>
+    <string name="enter_value">Введіть значення</string>
+    <string name="result">Результат</string>
+    <string name="from">З:</string>
+    <string name="to">В:</string>
+</resources>

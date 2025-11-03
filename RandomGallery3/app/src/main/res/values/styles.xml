@@ -1,0 +1,19 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BottomNotification">
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">@dimen/default_notification_padding</item>
+        <item name="android:paddingBottom">@dimen/default_notification_padding</item>
+        <item name="android:paddingEnd">@dimen/default_notification_padding</item>
+        <item name="android:paddingStart">@dimen/default_notification_padding</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">@dimen/notification_text</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>
