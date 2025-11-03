@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SpaceX Launches</string>
+    <string name="no_launches">Немає доступних запусків</string>
+    <string name="loading">Завантаження...</string>
+    <string name="error_loading">Помилка завантаження даних</string>
+    <string name="refresh">Оновити</string>
+</resources>

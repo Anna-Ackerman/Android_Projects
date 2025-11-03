@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Modern SpaceX inspired colors -->
+    <color name="primary">#005288</color>
+    <color name="primary_dark">#003d5c</color>
+    <color name="accent">#00a8e8</color>
+
+    <color name="background">#F5F7FA</color>
+    <color name="surface">#FFFFFF</color>
+
+    <color name="text_primary">#1A202C</color>
+    <color name="text_secondary">#718096</color>
+
+    <color name="success">#4CAF50</color>
+    <color name="error">#F44336</color>
+    <color name="warning">#FF9800</color>
+
+    <color name="divider">#E2E8F0</color>
+</resources>
